@@ -34,11 +34,11 @@ int main() {
     std::cout << "Here is some advice!\n" << std::endl;
 
     // send the file contents to output
-    while (std::getline(in, line)) std::cout << line;    
+    while (std::getline(in, line)) std::cout << line << "\n";    
 
     in.close();
 
-    std::cout << "\nNow enter your own advice! Press ENTER twice to finish\n" << std::endl;
+    std::cout << "Now enter your own advice! Press ENTER twice to finish\n" << std::endl;
 
     out.open(file);
 
